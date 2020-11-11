@@ -15,9 +15,28 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: sans-serif;
 }
 
 .flex-container {
   display: flex;
   height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-header {
+  font-weight: bold;
+  font-size: 4em;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 4rem;
+}
+
+.form-input {
+}
+
+.form-input-label {
+}
+
+.form-input-field {
 }
