@@ -16,6 +16,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   font-family: sans-serif;
+  font-size: 1.5em;
 }
 
 .flex-container {
@@ -27,7 +28,7 @@ body {
 
 .form-header {
   font-weight: bold;
-  font-size: 4em;
+  font-size: 3em;
   color: rgba(255, 255, 255, 0.85);
   margin-bottom: 4rem;
 }
@@ -36,7 +37,25 @@ body {
 }
 
 .form-input-label {
+  background-color: red;
+  padding: 1rem;
+  color: white;
 }
 
 .form-input-field {
+  border: none;
+  padding: 1rem;
+}
+
+.button {
+  background-color: red;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+}
+
+.button:hover {
+  background-color: rgba(255, 255, 255, 0.45);
+  color: red;
+  border: red 1px solid;
 }
